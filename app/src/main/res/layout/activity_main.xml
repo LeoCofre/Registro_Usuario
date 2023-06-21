@@ -16,6 +16,7 @@
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_box_24"
         tools:srcCompat="@drawable/baseline_account_box_24" />
 
     <EditText
