@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                String textoToast = "Bienvenido " + name + " " + lastName + " " + "Email" + email + " " + "contraseña" + password;
+                String textoToast = "Bienvenido " + name + " " + lastName + " " + "Email" + email + " " + "contraseña ********" ;
                 Toast.makeText(getBaseContext(), textoToast, Toast.LENGTH_LONG).show();
             }
         });
