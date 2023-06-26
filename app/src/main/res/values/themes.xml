@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.RegistroUsuario" parent="Base.Theme.RegistroUsuario" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/appBackground</item>
+    </style>
 </resources>

@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1FE828"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="198dp"
         android:layout_height="154dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -21,52 +22,38 @@
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        style="@style/textViewStyle"
         android:layout_marginTop="64dp"
-        android:ems="10"
         android:hint="@string/name"
-        android:inputType="text"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextLastName"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        style="@style/textViewStyle"
         android:layout_marginTop="20dp"
-        android:ems="10"
         android:hint="@string/lastname"
-        android:inputType="text"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextName" />
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        style="@style/textViewStyle"
         android:layout_marginTop="20dp"
-        android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextLastName" />
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        style="@style/textViewStyle"
         android:layout_marginTop="20dp"
-        android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
